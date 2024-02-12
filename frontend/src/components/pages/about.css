@@ -1,0 +1,133 @@
+.container-abt {
+  margin: 6rem auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("../../assets/869645c5f8.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50% 30%;
+  background-size: cover;
+  width: 100%;
+  padding: 10rem;
+}
+
+.container-abt ~ div {
+  background-color: var(--primary-color);
+}
+
+.abt-wrapper {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.few-blc {
+  width: 60%;
+}
+
+.few-blc h2 {
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--white);
+  width: 60%;
+  letter-spacing: -0.04em;
+}
+
+.few-blc p {
+  color: var(--white);
+  margin: 0.9rem 0px;
+  width: 60%;
+}
+
+.few-blc a {
+  color: var(--white);
+  background-color: var(--primary-color);
+  padding: 1.3rem 3rem;
+  margin: 0.9rem 0px;
+  display: inline-block;
+  font-weight: var(--font-weight-600);
+}
+
+.few-blc a:hover {
+  background-color: transparent;
+  color: var(--white);
+  background-color: rgb(68, 48, 182);
+  transition: all 0.3s ease-in;
+}
+
+.values-wrapper {
+  width: 80%;
+  margin: 12rem auto;
+  display: grid;
+  grid-template-columns: 422px auto;
+  column-gap: 8rem;
+}
+
+.mission-details {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.who-wrapper {
+  width: 80%;
+  margin: 12rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 12rem;
+  place-items: center;
+}
+
+.who-img img {
+  width: 100% !important;
+}
+
+.choose-wrapper {
+  width: 80%;
+  margin: 10rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  column-gap: 12rem;
+}
+
+.choose-wrapper img {
+  width: 100% !important;
+}
+
+.kick-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  margin: 9rem 0px;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../../assets/998042108b.jpg");
+  padding: 8rem;
+  background-position: 10% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.kick-wrapper P {
+  color: var(--white);
+  font-size: 2.2rem;
+}
+
+.kick-wrapper a {
+  color: var(--white);
+  background: var(--primary-color);
+  padding: 1.3rem 3rem;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: var(--font-weight-600);
+}
+
+.kick-wrapper a:hover {
+  background-color: rgb(68, 48, 182);
+  color: var(--white);
+  transition: all 0.3s ease-in;
+}

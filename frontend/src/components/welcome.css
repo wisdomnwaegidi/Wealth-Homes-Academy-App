@@ -1,0 +1,135 @@
+.welcome-cont {
+  display: grid;
+  grid-template-columns: 990px auto;
+  column-gap: 100px;
+  width: 89vw;
+  margin: 10rem 9rem 7rem;
+  place-items: center;
+}
+
+.img-div1 {
+  filter: drop-shadow(0px 10px 10px rgba(1, 203, 173, 0.5));
+}
+
+.img-div2 {
+  filter: drop-shadow(0px 10px 10px rgba(19, 175, 223, 0.5));
+}
+
+.img-div3 {
+  filter: drop-shadow(0px 10px 10px rgba(255, 114, 58, 0.5));
+}
+
+.img-div4 {
+  filter: drop-shadow(0px 10px 10px rgba(232, 90, 202, 0.5));
+}
+
+.welcome {
+  margin: 0px 0px 50px;
+}
+
+.download {
+  margin-top: 10px;
+  color: var(--gray);
+}
+
+.activities {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.act,
+.pat-day,
+.exp-tch,
+.mus-lsn {
+  margin-left: 30px;
+}
+
+.act a,
+.pat-day a,
+.exp-tch a,
+.mus-lsn a {
+  font-weight: 700;
+  color: var(--gray);
+  font-size: 20px;
+}
+
+.act a:hover {
+  background-image: linear-gradient(145deg, #8ecf35, #23cc88);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.pat-day a:hover {
+  background-image: linear-gradient(145deg, #01cbad, #47a1f2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.exp-tch a:hover {
+  background-image: linear-gradient(145deg, #ff4f58, #ffb400);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.mus-lsn a:hover {
+  background-image: linear-gradient(145deg, #e85aca, #fc4e65);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.act-learn,
+.ptday,
+.tch,
+.music {
+  margin-top: 10px;
+  color: var(--gray);
+}
+
+.wel-divs1,
+.wel-divs2,
+.wel-divs3,
+.wel-divs4 {
+  display: flex;
+  align-items: center;
+}
+
+.welcome h1 {
+  font-size: 36px;
+}
+
+.div1 {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(145deg, #8ecf35, #23cc88);
+  margin: 10px 0px;
+}
+
+.div2 {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(145deg, #01cbad, #47a1f2);
+  margin: 10px 0px;
+}
+
+.div3 {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(145deg, #ff4f58, #ffb400);
+  margin: 10px 0px;
+}
+
+.div4 {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(145deg, #e85aca, #fc4e65);
+  margin: 10px 0px;
+}
+
+.child-img {
+  width: 100% !important;
+}

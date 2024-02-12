@@ -1,0 +1,26 @@
+{
+  "folders": [
+	{
+		"path": "../../../../../react-projects"
+	},
+	{
+		"path": "../../../../../school"
+	},
+	{
+		"path": "../../../.."
+	},
+	{
+		"path": "../../../../../js-projects"
+	},
+	{
+		"path": "../../../../../react-ts-quiz"
+	},
+	{
+		"path": "../../../../../FUTO BUS TRANSIT PORTAL WEBSITE"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "school",
+    "liveServer.settings.port": 5501
+  },  
+}

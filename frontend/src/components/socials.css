@@ -1,0 +1,28 @@
+.hr-line {
+  color: var(--white);
+  width: 1000px;
+  margin: 10px auto;
+}
+
+.socials-container {
+  width: 756px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+.socials-icon {
+  margin: 0px 10px;
+  color: var(--white);
+}
+
+.socials-icon:hover{
+    color: var(--yellow);
+    transition: 0.5s ease;
+}
+
+.all-rights {
+  color: var(--white);
+  font-weight: var(--font-weight-600);
+}

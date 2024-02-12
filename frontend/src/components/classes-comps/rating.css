@@ -1,0 +1,8 @@
+.starfilled {
+  color: var(--primary-color);
+  width: 40px;
+}
+
+.star {
+  width: 40px;
+}

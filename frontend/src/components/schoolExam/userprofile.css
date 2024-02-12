@@ -1,0 +1,41 @@
+.profile-container {
+  /* margin-top: 7rem; */
+  display: grid;
+  grid-template-columns: 500px auto;
+}
+
+.profile-wrapper__one {
+  margin-left: 5px;
+  overflow-y: scroll;
+  height: 100vh;
+}
+
+.profile-wrapper-two {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.school-fees,
+.school-subjects {
+  background-color: rgba(0, 128, 0, 0.02);
+  padding: 3rem;
+  border-radius: 20px;
+  margin: 0px 10px;
+  height: max-content;
+}
+
+.school-fees h3 {
+  background-color: var(--primary-color);
+  padding: 10px;
+  color: var(--white);
+  width: max-content;
+}
+
+.schl-paid span {
+  font-weight: 800;
+}
+
+/* .schl-paid {
+  display: flex;
+} */

@@ -1,0 +1,15 @@
+.answer-button {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+.incorrect-answer {
+  background-color: var(--dark-blue);
+  color: var(--white);
+}
+
+.correct-answer {
+  background-color: var(--primary-color);
+  color: var(--white);
+  /* color: #4AB078; */
+}

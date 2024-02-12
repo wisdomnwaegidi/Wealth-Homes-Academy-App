@@ -1,0 +1,97 @@
+.discover {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1200px;
+  margin: 20px auto;
+  background-color: var(--blue-1);
+  padding: 30px;
+  position: relative;
+  top: 50px;
+}
+
+.call-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call {
+  font-weight: var(--font-weight-600);
+  color: var(--white);
+}
+
+.phone-icon {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.number {
+  font-weight: var(--font-weight-600);
+  font-size: 19px;
+  color: var(--white);
+}
+
+.send-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.msg {
+  font-weight: var(--font-weight-600);
+  color: var(--white);
+}
+
+.envelope-icon {
+  margin-right: 13px;
+  font-size: 30px;
+}
+
+.email {
+  font-weight: var(--font-weight-600);
+  font-size: 16px;
+  color: var(--white);
+}
+
+.visit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-icon {
+  margin-right: 13px;
+  font-size: 30px;
+}
+
+.sch-address {
+  font-weight: var(--font-weight-600);
+  font-size: 16px;
+  color: var(--white);
+}
+
+.location {
+  font-weight: var(--font-weight-600);
+  color: var(--white);
+}
+
+.line {
+  height: 50px;
+  padding: 2px;
+  background-color: var(--white);
+}
+
+.number:hover,
+.number:active {
+  color: var(--yellow);
+}
+
+.email:hover,
+.email:active {
+  color: var(--yellow);
+}
+
+.sch-address:hover,
+.sch-address:active {
+  color: var(--yellow);
+}

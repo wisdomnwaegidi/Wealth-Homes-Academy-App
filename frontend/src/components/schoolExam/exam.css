@@ -1,0 +1,74 @@
+.exam-con {
+  width: 90%;
+  margin: 10rem auto;
+}
+
+.exm-hd {
+  margin-bottom: 40px;
+}
+
+.exm-eng {
+  text-align: center;
+}
+
+.exam-header {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.exam-info {
+  text-align: center;
+  text-decoration: underline;
+}
+
+.exam-btn {
+  color: var(--white);
+  background-color: var(--primary-color);
+  border: none;
+  outline: none;
+  padding: 1rem 2rem;
+  margin-top: 20px;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0.24rem solid var(--primary-color);
+}
+
+.exam-btn:hover {
+  color: var(--primary-color);
+  background-color: transparent;
+  border: 0.24rem solid var(--primary-color);
+  /* transition: 0.5s ease; */
+}
+
+.exam-btn:active {
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.qst li {
+  font-weight: 800; /* or use a different font-weight value as needed */
+ font-size: 20px;
+}
+
+.qst li .con-li li {
+  font-weight: 600; /* Reset font-weight for answer text */
+}
+
+.qst {
+  margin: 10px 0px;
+}
+
+.con-li {
+  display: flex;
+  margin: 20px 0px;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.con-li input {
+  margin-right: 10px;
+}
+
+.score {
+  margin-top: 20px;
+}

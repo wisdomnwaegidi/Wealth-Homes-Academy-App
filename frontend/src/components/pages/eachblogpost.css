@@ -1,0 +1,13 @@
+.read-more-btn {
+    padding: 9px 1rem;
+    background-color: var(--primary-color);
+    color: var(--white);
+    font-weight: var(--font-weight-600);
+    margin-top: 10px !important;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+  }
+  

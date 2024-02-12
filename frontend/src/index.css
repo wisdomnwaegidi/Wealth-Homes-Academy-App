@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary-color: rgb(100, 75, 241);
+  --secondary-color: rgb(37, 24, 110);
+  --white: #fff;
+  --gray: rgb(37, 36, 37);
+  --font-weight-600: 600;
+  --yellow: rgb(255, 208, 0);
+  --dark-yellow: rgb(240, 164, 10);
+  --blue: rgb(7, 243, 172);
+  --blue-1: rgb(7, 182, 129);
+  --purple: rgb(179, 4, 179);
+  --purple-1: rgb(236, 19, 236);
+  --dark-blue: #00394f;
+  --text-centre: center;
+  --gradient-one: linear-gradient(90deg, #000DBDE 0%, #fc00ff 100%);
+  --clr-grey-special: #eae6eb;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --max-width: 1170px;
+  --fixed-width: 920px;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}

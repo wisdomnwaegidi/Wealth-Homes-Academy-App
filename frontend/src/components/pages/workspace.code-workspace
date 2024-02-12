@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "name": "react-ts-quiz",
+      "path": "../../../../../react-ts-quiz"
+    },
+    {
+      "name": "js-projects",
+      "path": "../../../../../js-projects"
+    },
+    {
+      "name": "wealthy-home-acadmy-app",
+      "path": "../../../.."
+    },
+    {
+      "name": "FUTO BUS TRANSIT PORTAL WEBSITE",
+      "path": "../../../../../FUTO BUS TRANSIT PORTAL WEBSITE"
+    },
+    {
+      "name": "react-projects",
+      "path": "../../../../../react-projects"
+    },
+    {
+      "name": "school",
+      "path": "../../../../../school"
+    },
+    {
+      "path": "../../../../../IprintApp"
+    },
+    {
+      "path": "../../../../../edenjobs-ejs"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "school",
+    "liveServer.settings.port": 5501
+  }
+}

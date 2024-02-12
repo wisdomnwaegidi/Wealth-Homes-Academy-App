@@ -1,0 +1,97 @@
+.subjt-cont{
+    display: flex;
+}
+
+.cont-footer {
+    margin: 0px 80px;
+    width: 400px;
+  }
+  
+  .subject-footer {
+    margin-left: 100px;
+  }
+  
+  .school-footer {
+    margin-left: 50px;
+  }
+  
+  .community-footer {
+    margin-left: 80px;
+  }
+  
+  .email-icon {
+    color: var(--primary-color);
+    background-color: var(--white);
+    font-size: 16px;
+    padding-top: 4px;
+  }
+  
+  .logo-footer,
+  .academic-footer,
+  .newsletter {
+    color: var(--white);
+  }
+  
+  .newsletter {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .subject-footer > h1 {
+    color: var(--white);
+  }
+  
+  .school-footer > h1 {
+    color: var(--white);
+  }
+  
+  .community-footer > h1 {
+    color: var(--white);
+  }
+  
+  .subject-footer ul li > a {
+    cursor: pointer;
+    color: var(--white);
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .subject-footer ul li > a:hover {
+    color: var(--yellow);
+    transition: all 0.5s ease;
+  }
+  
+  .school-footer ul li > a {
+    cursor: pointer;
+    color: var(--white);
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .school-footer ul li > a:hover {
+    color: var(--yellow);
+    transition: 0.5s ease;
+  }
+  
+  .community-footer ul li > a {
+    cursor: pointer;
+    color: var(--white);
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 2;
+  }
+  
+  .community-footer ul li > a:hover {
+    color: var(--yellow);
+    transition: 0.5s ease;
+  }
+  
+  .subject-footer h1,
+  .school-footer h1,
+  .community-footer h1 {
+    font-size: 18px;
+    opacity: 0.5;
+    font-weight: 600;
+  }

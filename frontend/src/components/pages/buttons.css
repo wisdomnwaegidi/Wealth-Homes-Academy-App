@@ -1,0 +1,21 @@
+.ctg-btns {
+  outline: none;
+  border: none;
+  color: var(--white) !important;
+  background-color: var(--primary-color);
+  padding: 10px 35px;
+  margin: 3rem 0.75rem;
+  font-family: inherit;
+  font-weight: var(--font-weight-600);
+  border-radius: 50px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.ctg-btns:hover {
+  background-color: var(--secondary-color);
+}
+
+.ctg-btns:focus {
+  background-color: var(--purple);
+}

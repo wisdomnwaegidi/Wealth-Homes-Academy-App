@@ -1,0 +1,40 @@
+.bg-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/56716d89e6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+  width: 100%;
+  padding: 4rem;
+  background-attachment: inherit;
+  margin: 8rem auto 10rem;
+  background-clip: border-box;
+}
+
+.body-con {
+  width: 756px;
+  margin: auto;
+  padding: 20px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.discover-teach {
+  color: var(--white);
+  font-weight: var(--font-weight-600);
+  font-size: 1.75rem;
+}
+
+.body-con a {
+  color: var(--gray);
+  background-color: var(--yellow);
+  display: inline-block;
+  padding: 1.3rem 3rem;
+  margin-top: 20px;
+  font-weight: var(--font-weight-600);
+}
+
+.body-con a:hover {
+  background-color: var(--dark-yellow);
+}

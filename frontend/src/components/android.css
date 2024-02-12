@@ -1,0 +1,39 @@
+.dis-cont {
+  width: 800px;
+  margin: 10rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iphone {
+  width: 20%;
+  margin-left: 2rem;
+}
+
+.join h1 {
+  line-height: -1.5;
+}
+
+.join p {
+  font-size: 30px;
+  margin: 0px 0px 2rem;
+}
+
+.join a {
+  color: var(--gray);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+}
+
+.playstore {
+  margin-left: 30px;
+}
+
+.dwn {
+  color: var(--gray);
+}

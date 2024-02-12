@@ -1,0 +1,124 @@
+.quiz-container {
+  /* margin: 9rem 0px; */
+  text-align: center;
+}
+
+.quiz-header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  font-weight: 700;
+  padding: 3rem;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.intro-paragraph {
+  /* max-width: 70ch; */
+  /* text-align: left; */
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.score-table {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.con-qst-category {
+  margin-top: 50px;
+}
+
+.qst-category-div {
+  display: flex;
+  justify-content: center;
+  background-color: var(--yellow);
+  color: var(--gray);
+  padding: 20px;
+  width: 20%;
+  margin: auto;
+}
+
+.qst-category-div h4 {
+  margin-right: 10px;
+}
+
+.answer-question {
+  margin: 3rem 0;
+}
+
+.answer-question__question {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.answer-question__answers li button {
+  font-size: 2rem;
+  border-radius: 20px;
+}
+
+.answer-question__answers {
+  display: inline-grid;
+  grid-gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  list-style: none;
+  width: 90vw;
+  padding-left: 0;
+}
+
+.btn-play {
+  font-size: 1rem;
+  font-weight: 700 !important;
+  color: var(--white);
+  background-color: var(--primary-color);
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 800;
+  font-family: inherit;
+  border-radius: 10px;
+}
+
+.comp-quiz {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* So that on small screens the buttons aren't too small */
+@media only screen and (max-width: 600px) {
+  .answer-question__answers {
+    grid-template-columns: 1fr;
+  }
+}
+
+.answer-question__answers button {
+  background-color: none;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* .answer-question__answers > :nth-child(1) button {
+  background-color: #ffa69e;
+}
+
+.answer-question__answers > :nth-child(2) button {
+  background-color: #faf3dd;
+}
+
+.answer-question__answers > :nth-child(3) button {
+  background-color: #b8f2e6;
+}
+
+.answer-question__answers > :nth-child(4) button {
+  background-color: #aed9e0;
+} */
+
+.question-json {
+  text-align: left;
+  width: min-content;
+  margin: auto;
+}
